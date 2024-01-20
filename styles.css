@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* margin: 0; */
+}
+
+main {
+    /* display: block; */
+    /* flex-direction: column; */
+    text-align: center;
+    /* align-items: center; */
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 5px;
+    /* max-width: */
+    height: 60vh;
+    width: 30vw;
+}
+
+.photo {
+    display: block;
+    margin: 1rem auto 1rem auto;
+    border-radius: 50%;
+    /* width: 15%; */
+    height: 20%;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.london {
+    margin: 0.5rem 0 1rem 0;
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+}
+
+.quote {
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+}
+
+button {
+    /* font-size: small; */
+    font-weight: 400;
+    /* font-size: 2rem; */
+    margin-bottom: 1rem;
+    margin: 0 1rem 1rem 1rem;
+    padding: 0.75rem 0 0.75rem 0;
+    /* text-align: center; */
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: inline-block;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%)
+}
